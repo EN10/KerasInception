@@ -23,3 +23,7 @@ This example was built and tested on c9.io or cs50.io as they provide a free Ubu
 
 disable "cpu_feature_guard":  
 `export TF_CPP_MIN_LOG_LEVEL=2`
+
+### Tensorflow Imports
+[image](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/contrib/keras/python/keras/preprocessing/image.py)  
+[inception_v3](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/contrib/keras/python/keras/applications/inception_v3.py)
