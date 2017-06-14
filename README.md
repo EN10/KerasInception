@@ -1,5 +1,7 @@
 # Inception Keras
 
+#### Image Recognition using Keras and Inception-v3
+
 Keras allows ['easy and fast'](https://keras.io) use of models: [example](https://keras.io/applications/#usage-examples-for-image-classification-models).  
 [Inception-v3](https://www.tensorflow.org/tutorials/image_recognition) is a trained image recognition model for tensorflow.  
 
@@ -17,9 +19,14 @@ This example was built and tested on c9.io or cs50.io as they provide a free Ubu
 
 ## Install
 
-    sudo pip install -U pip  
-    sudo pip install tensorflow keras 
-    sudo pip install h5py pillow  
+    sudo pip install -U pip 
+    sudo pip install tensorflow 
+    sudo pip install h5py pillow 
+
+... `-U pip` for tensorflow  
+`h5py` to load weights  
+`pillow` to load image  
+as tensorflow ... keras is used therefore keras not installed separately  
 
 disable "cpu_feature_guard":  
 `export TF_CPP_MIN_LOG_LEVEL=2`
