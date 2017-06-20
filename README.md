@@ -23,10 +23,10 @@ This example was built and tested on c9.io or cs50.io as they provide a free Ubu
     sudo pip install tensorflow 
     sudo pip install h5py pillow 
 
-`... -U pip` update pip with tensorflow  
-`h5py` to load weights  
-`pillow` to load image  
-as `tensorflow ... keras` is used `keras` is not installed separately  
+`sudo pip install -U pip` update pip with tensorflow  
+`... h5py` to load weights  
+`... pillow` to load image  
+as `from tensorflow ... keras ... import` is used, `keras` is not installed separately  
 
 disable "cpu_feature_guard":  
 `export TF_CPP_MIN_LOG_LEVEL=2`
