@@ -30,7 +30,7 @@ as `from tensorflow ... keras ... import` is used, `keras` is not installed sepa
 
 disable "cpu_feature_guard":  
 `export TF_CPP_MIN_LOG_LEVEL=2`  
-[upgrade performace](https://github.com/EN10/TensorFlow-For-Poets#performance)
+[upgrade performance](https://github.com/EN10/TensorFlow-For-Poets#performance)
 
 ### Tensorflow Imports
 [image](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/contrib/keras/python/keras/preprocessing/image.py)  
