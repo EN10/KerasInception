@@ -28,7 +28,7 @@ This example was built and tested on c9.io or cs50.io as they provide a free Ubu
 `... pillow` to load image  
 as `from tensorflow ... keras ... import` is used, `keras` is not installed separately  
 
-### Run
+## Run
 
 `python KerasInception.py`  
 Line 7: Loads image `'image.jpg'` then runs inference on `InceptionV3`.  
