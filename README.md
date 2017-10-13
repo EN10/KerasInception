@@ -28,9 +28,15 @@ This example was built and tested on c9.io or cs50.io as they provide a free Ubu
 `... pillow` to load image  
 as `from tensorflow ... keras ... import` is used, `keras` is not installed separately  
 
-disable "cpu_feature_guard":  
-`export TF_CPP_MIN_LOG_LEVEL=2`  
-[upgrade performance](https://github.com/EN10/TensorFlow-For-Poets#performance)
+### Run
+
+`python KerasInception.py`  
+Line 7: Loads image `'image.jpg'` then runs inference on `InceptionV3`.  
+Line 14: Outputs top 5 predictions and probabilities.   
+
+**To disable `"cpu_feature_guard"`:**  
+* `export TF_CPP_MIN_LOG_LEVEL=2`  
+* [upgrade performance](https://github.com/EN10/TensorFlow-For-Poets#performance)
 
 ### Tensorflow Imports
 [image](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/contrib/keras/python/keras/preprocessing/image.py)  
