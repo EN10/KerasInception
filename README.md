@@ -26,7 +26,8 @@ This example was built and tested on c9.io or cs50.io as they provide a free Ubu
 `sudo pip install -U pip` update pip with tensorflow  
 `... h5py` to load weights  
 `... pillow` to load image  
-as `from tensorflow ... keras ... import` is used, as `keras` is not installed separately  
+as `from tensorflow.python.keras ... import` is used, as `keras` is not installed separately  
+`keras` path correct as of `tensorflow 1.4.1`
 
 ## Run
 
