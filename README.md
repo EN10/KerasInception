@@ -31,7 +31,7 @@ as `from tensorflow.python.keras ... import` is used, as `keras` is not installe
 
 ## Run
 
-`python KerasInception.py`  
+`python predict.py`  
 Line 7: Loads image `'image.jpg'` then runs inference on `InceptionV3`.  
 Line 14: Outputs top 5 predictions and probabilities.   
 
