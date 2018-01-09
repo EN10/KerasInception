@@ -1,6 +1,6 @@
 # Models
 
-There are a variety of models available:
+Models differ based on Accuracy and Performance:
 
 ![Models](https://github.com/EN10/KerasInception/raw/master/images/Models.jpg)
 
