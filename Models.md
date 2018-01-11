@@ -29,7 +29,7 @@ Fix:
 
 `TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX`
 
-| Model | Performance (approx) | Size | Example |
+| Model | Performance (c9 approx) | Size | Example |
 | ------------- | ------------- | ------------- | ------------- |
 | Inception  | 10s | 92M | [predict.py](https://github.com/EN10/KerasInception/blob/master/predict.py) |
 | InceptionResNetV2  | 50s  | 215M | [irn2.py](https://github.com/EN10/KerasInception/blob/master/models/irn2.py) |
