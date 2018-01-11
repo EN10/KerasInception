@@ -39,3 +39,10 @@ Fix:
 [FloydHub](https://github.com/EN10/FloydHub) increased performance, compiled to use `SSE4.1 SSE4.2 AVX`
 
 * FloydHub nasnet example [run.sh](https://github.com/EN10/KerasInception/blob/master/models/run.sh)
+
+
+    floyd run \
+    --data efcic/datasets/nasnet-large/2:models \
+    --data efcic/datasets/keras/1:keras \
+    --env tensorflow-1.4 \
+    "bash run.sh
