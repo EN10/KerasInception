@@ -33,4 +33,7 @@ Models stored in `~/.keras/models/`
 * NASnet mobile: ~   20s
 * NASnet large:  ~   1m45s
 
-[Floyd](https://github.com/EN10/FloydHub)
+FloydHub can increase performance as it is compiled to use `SSE4.1 SSE4.2 AVX`
+
+* [Floyd](https://github.com/EN10/FloydHub)
+* nasnet example [run.sh](https://github.com/EN10/KerasInception/blob/master/models/run.sh)
