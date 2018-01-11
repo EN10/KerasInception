@@ -11,16 +11,15 @@ Models stored in `~/.keras/models/`
 
 ### Install
 
-For TF missing models requires installing Keras:
-
+Models missing from TensorFlow require installing Keras:   
 Replace `from tensorflow.python.keras...` with just `from keras...`
 
     sudo apt update 
     sudo apt install python-dev 
     sudo pip install keras
 
-NASnet:     
-Fix for `ImportError: No module named nasnet`
+NASnet Error `ImportError: No module named nasnet`   
+Fix:
 
     sudo pip install git+git://github.com/keras-team/keras.git --upgrade --no-deps
 
