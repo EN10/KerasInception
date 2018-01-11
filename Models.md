@@ -38,4 +38,4 @@ Fix:
 
 [FloydHub](https://github.com/EN10/FloydHub) increased performance, compiled to use `SSE4.1 SSE4.2 AVX`
 
-* nasnet example [run.sh](https://github.com/EN10/KerasInception/blob/master/models/run.sh)
+* FloydHub nasnet example [run.sh](https://github.com/EN10/KerasInception/blob/master/models/run.sh)
