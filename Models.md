@@ -32,3 +32,5 @@ Models stored in `~/.keras/models/`
 * InceptionResNetV2 ~ 27s   [irn2.py](https://github.com/EN10/KerasInception/blob/master/irn2.py)
 * NASnet mobile: ~   20s
 * NASnet large:  ~   1m45s
+
+[Floyd](https://github.com/EN10/FloydHub)
