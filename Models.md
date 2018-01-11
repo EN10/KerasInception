@@ -29,10 +29,12 @@ Fix:
 
 `TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX`
 
-* Inception ~ 10s
-* InceptionResNetV2 ~ 27s   [irn2.py](https://github.com/EN10/KerasInception/blob/master/irn2.py)
-* NASnet mobile: ~   20s
-* NASnet large:  ~   1m45s
+| Model | ~ Performance | Example |
+| ------------- | ------------- | ------------- |
+| Inception  | 10s | |
+| InceptionResNetV2  | 50s  | [irn2.py](https://github.com/EN10/KerasInception/blob/master/irn2.py) |
+| NASNetMobile  | 38s  | |
+| NASNetLarge  | 1m45s | |
 
 [FloydHub](https://github.com/EN10/FloydHub) increased performance, compiled to use `SSE4.1 SSE4.2 AVX`
 
