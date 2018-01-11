@@ -29,12 +29,12 @@ Fix:
 
 `TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX`
 
-| Model | ~ Performance | Example |
-| ------------- | ------------- | ------------- |
-| Inception  | 10s | [predict.py](https://github.com/EN10/KerasInception/blob/master/predict.py) |
-| InceptionResNetV2  | 50s  | [irn2.py](https://github.com/EN10/KerasInception/blob/master/models/irn2.py) |
-| NASNetMobile  | 38s  | see below |
-| NASNetLarge  | 3m55s | [nasnet.py](https://github.com/EN10/KerasInception/blob/master/models/nasnet.py) |
+| Model | Performance (approx) | Size | Example |
+| ------------- | ------------- | ------------- | ------------- |
+| Inception  | 10s | 92M | [predict.py](https://github.com/EN10/KerasInception/blob/master/predict.py) |
+| InceptionResNetV2  | 50s  | 215M | [irn2.py](https://github.com/EN10/KerasInception/blob/master/models/irn2.py) |
+| NASNetMobile  | 38s  | 24M | see below |
+| NASNetLarge  | 2-10m | 344M | [nasnet.py](https://github.com/EN10/KerasInception/blob/master/models/nasnet.py) |
 
 [FloydHub](https://github.com/EN10/FloydHub) increased performance, compiled to use `SSE4.1 SSE4.2 AVX`
 
