@@ -37,9 +37,16 @@ as `from tensorflow.python.keras ... import` is used, as `keras` is not installe
 Line 7: Loads image `'image.jpg'` then runs inference on `InceptionV3`.  
 Line 14: Outputs top 5 predictions and probabilities.   
 
+### Performance
+
 **To disable `"cpu_feature_guard"`:**  
-* `export TF_CPP_MIN_LOG_LEVEL=2`  
-* [upgrade performance](https://github.com/EN10/TensorFlow-For-Poets#performance)
+`export TF_CPP_MIN_LOG_LEVEL=2`  
+
+Improve Performance:    
+`TensorFlow binary compiled to use: SSE4.1 SSE4.2 AVX`
+
+* [Precompiled](https://github.com/EN10/TensorFlow-For-Poets#performance)
+* [FloydHub](https://github.com/EN10/FloydHub)
 
 ### Tensorflow Imports
 [image](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/contrib/keras/python/keras/preprocessing/image.py)  
