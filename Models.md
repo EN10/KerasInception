@@ -35,11 +35,22 @@ NASnet Error `ImportError: No module named nasnet` Fix:
 | NASNetMobile  | 38s  | 24M | see below |
 | NASNetLarge  | 5-12m | 344M | [nasnet.py](https://github.com/EN10/KerasInception/blob/master/models/nasnet.py) |
 
+### FloydHub
+
 [FloydHub](https://github.com/EN10/FloydHub) increases performance, compiled to use `SSE4.1 SSE4.2 AVX`     
-FloydHub NASNetLarge example [run.sh](https://github.com/EN10/KerasInception/blob/master/models/run.sh) runs < 1m:   
+NASNetLarge example [run.sh](https://github.com/EN10/KerasInception/blob/master/models/run.sh) runs < 1m on FloydHub:   
 
     floyd run \
     --data efcic/datasets/nasnet-large/2:models \
     --data efcic/datasets/keras/1:keras \
     --env tensorflow-1.4 \
     "bash run.sh
+    
+**FloydHub NASNetLarge Setup:**
+
+* mount nasnet_large.h5 model
+* mount Keras 2.1.2
+* run tensorflow 1.4
+* copy model & Keras to local
+* install Keras 2.1.2
+* run inference
