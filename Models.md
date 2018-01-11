@@ -4,8 +4,10 @@ Models differ based on Accuracy and Performance:
 
 ![Models](https://github.com/EN10/KerasInception/raw/master/images/Models.jpg)
 
-[Keras Models](https://keras.io/applications)   
-[Keras Models in Tensorflow](https://www.tensorflow.org/api_docs/python/tf/keras/applications)
+* [Keras Models](https://keras.io/applications)   
+* [Keras Models in Tensorflow](https://www.tensorflow.org/api_docs/python/tf/keras/applications)
+
+Models stored in `~/.keras/models/`
 
 ### Install
 
@@ -21,8 +23,6 @@ NASnet:
 Fix for `ImportError: No module named nasnet`
 
     sudo pip install git+git://github.com/keras-team/keras.git --upgrade --no-deps
-
-Models stored in `~/.keras/models/`
 
 ### Performance
 
