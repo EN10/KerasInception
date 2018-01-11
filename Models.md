@@ -18,8 +18,7 @@ Replace `from tensorflow.python.keras...` with just `from keras...`
     sudo apt install python-dev 
     sudo pip install keras
 
-NASnet Error `ImportError: No module named nasnet`   
-Fix:
+NASnet Error `ImportError: No module named nasnet` Fix: 
 
     sudo pip install git+git://github.com/keras-team/keras.git --upgrade --no-deps
 
@@ -36,10 +35,8 @@ Fix:
 | NASNetMobile  | 38s  | 24M | see below |
 | NASNetLarge  | 5-12m | 344M | [nasnet.py](https://github.com/EN10/KerasInception/blob/master/models/nasnet.py) |
 
-[FloydHub](https://github.com/EN10/FloydHub) increased performance, compiled to use `SSE4.1 SSE4.2 AVX`
-
-* FloydHub nasnet example [run.sh](https://github.com/EN10/KerasInception/blob/master/models/run.sh)
-
+[FloydHub](https://github.com/EN10/FloydHub) increases performance, compiled to use `SSE4.1 SSE4.2 AVX`     
+FloydHub NASNetLarge example [run.sh](https://github.com/EN10/KerasInception/blob/master/models/run.sh) runs < 1m:   
 
     floyd run \
     --data efcic/datasets/nasnet-large/2:models \
