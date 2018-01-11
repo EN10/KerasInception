@@ -33,7 +33,7 @@ Fix:
 | ------------- | ------------- | ------------- |
 | Inception  | 10s | [predict.py](https://github.com/EN10/KerasInception/blob/master/predict.py) |
 | InceptionResNetV2  | 50s  | [irn2.py](https://github.com/EN10/KerasInception/blob/master/models/irn2.py) |
-| NASNetMobile  | 38s  | |
+| NASNetMobile  | 38s  | see below |
 | NASNetLarge  | 3m55s | [nasnet.py](https://github.com/EN10/KerasInception/blob/master/models/nasnet.py) |
 
 [FloydHub](https://github.com/EN10/FloydHub) increased performance, compiled to use `SSE4.1 SSE4.2 AVX`
