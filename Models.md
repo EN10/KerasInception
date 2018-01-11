@@ -17,6 +17,13 @@ Replace `from tensorflow.python.keras...` with just `from keras...`
     sudo apt install python-dev 
     sudo pip install keras
 
+NASnet:     
+Fix for `ImportError: No module named nasnet`
+
+    sudo pip install git+git://github.com/keras-team/keras.git --upgrade --no-deps
+
+Models stored in `~/.keras/models/`
+
 ### Performance
 
 `TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX`
