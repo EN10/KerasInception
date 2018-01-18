@@ -6,6 +6,7 @@ Models differ based on Accuracy and Performance:
 
 * [Keras Models](https://keras.io/applications)   
 * [Keras Models in Tensorflow](https://www.tensorflow.org/api_docs/python/tf/keras/applications)
+* Other Google [Pre-trained Models](https://github.com/tensorflow/models/tree/master/research/slim#pre-trained-models)
 
 Models stored in `~/.keras/models/`
 

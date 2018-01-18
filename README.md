@@ -3,7 +3,7 @@
 #### Image Recognition using Keras and Inception-v3
 
 Keras allows ['easy and fast'](https://keras.io) use of models: [example](https://keras.io/applications/#usage-examples-for-image-classification-models).  
-[Inception-v3](https://www.tensorflow.org/tutorials/image_recognition) is a trained image recognition model for tensorflow.     
+[Inception-v3](https://www.tensorflow.org/tutorials/image_recognition) is a trained image recognition model for tensorflow with 93.9% Top-5 Accuracy.     
 
 * **[Other Keras Models](https://github.com/EN10/KerasInception/blob/master/Models.md)**
 
